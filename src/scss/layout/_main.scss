@@ -1,0 +1,47 @@
+/** main **/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-contenido{
+    display: flex;
+    max-width: 120rem;
+    width: 100%;
+    img{
+        width: 100rem;
+        height: 50rem;
+        border-radius: 1rem;
+    }
+    
+}
+
+@media (max-width: 768px){
+    .main-contenido{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 768px){
+    .main-contenido h2{
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 768px){
+    .main-contenido p{
+        font-size: 1.2rem;
+    }
+}
+
+
+.main-mensaje{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--grisOscuro);
+}

@@ -1,0 +1,43 @@
+.dark-mode{
+
+    background-color:rgb(14, 22, 22);
+    .sobre-nosotros{
+        p{
+            color: rgb(209, 207, 207);
+    }
+
+        }
+    .blog-entrada-contenido{
+        p{
+            color: rgb(209, 207, 207);
+        }
+    }
+
+    .header-contenido-logos{
+        img{
+            filter: invert(100%);
+        }
+    }
+
+    .mobile-menu{
+        img{
+            filter: invert(100%);
+        }
+    }
+
+    .footer-contenido-seccion-redes{
+        img{
+            filter: invert(100%);   
+        }
+    }
+    h1{
+        color:#AEBDAC;
+    }
+    h2{
+        color:#AEBDAC;
+    }
+    label{
+        color:#AEBDAC;
+    }
+
+    }

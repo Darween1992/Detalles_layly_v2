@@ -1,0 +1,29 @@
+.boton{
+    background-color: var(--primario);
+    color: var(--grisOscuro);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+}
+
+.boton:hover{
+    background-color: var(--segundario);
+    color: var(--blanco);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+}
+
+.boton-2{
+    background-color: var(--segundario);
+    color: var(--gris);
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.boton-2:hover{
+    background-color: var(--primario);
+    color: var(--grisOscuro);
+    padding: 0.5rem;
+    border-radius: 1rem;
+}

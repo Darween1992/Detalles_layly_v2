@@ -1,0 +1,26 @@
+.blog-titulo{
+    color: var(--segundario);
+    font-weight: 300;
+}
+
+.blog-entrada{
+    max-width: 90%;
+    border-bottom: solid 0.2rem;
+    border-color: var(--primario);
+    h2{
+        font-size: 2rem;
+        color: var(--segundario);
+        font-weight: 300;
+    }
+    p{
+        color: var(--grisOscuro);
+        font-size: 1.5rem;
+    }
+}
+
+.blog-entrada-contenido{
+    align-items: center;
+    img{
+        width: 50%;
+    }
+}

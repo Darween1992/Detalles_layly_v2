@@ -1,0 +1,77 @@
+
+.seccion-mensaje{
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--segundario);
+}
+
+@media (max-width: 768px){
+    .seccion-mensaje h2{
+        font-size: 3rem;
+    }
+}
+
+
+.seccion-favoritos{
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    max-width: 120rem;
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: var(--gris);
+}
+
+@media (max-width: 768px){
+    .seccion-favoritos{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        background-color: var(--gris);
+        gap: 1rem;
+        padding: 1rem;
+        
+    }
+}
+
+@media (max-width: 768px){
+    
+    .seccion-favoritos-imagen img{
+        max-height: 20rem;
+        
+    }
+}
+
+@media (max-width: 768px){
+    
+    .seccion-favoritos-mensaje h3{
+        font-size: 1.8rem;
+        margin: 0;
+        border: 0;
+    }
+}
+
+@media (max-width: 768px){
+    
+    .seccion-favoritos-mensaje p{
+        font-size: 1.2rem;
+    }
+}
+
+.seccion-favoritos-imagen{
+    max-width:50%;
+}
+.seccion-favoritos-imagen img{
+    border-radius: 1rem;
+}
+
+.seccion-favoritos-mensaje{
+    max-width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    color: var(--grisOscuro);
+}
